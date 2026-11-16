@@ -5,7 +5,7 @@ def get_connection():
     try:
         connection = mysql.connector.connect(
             host="127.0.0.1",
-            port=3307,
+            port=3308,
             user="bloodlink_user",
             password="BloodLinkUser2026",
             database="bloodlink_db"
